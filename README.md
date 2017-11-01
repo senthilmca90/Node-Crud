@@ -5,14 +5,16 @@ Node js(ES6) CRUD operation using mongoose
 
 git clone https://github.com/senthilmca90/Node-Crud.git
 
-
-
+go to inside the folder
 >cd Node-Crud
+# install packages 
 >npm install
 
-# Connect your mongodb
+Connect your mongodb
 
->node server
+# start the node server
+> node server
+
 # check this url
 http://localhost:3000
 
