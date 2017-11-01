@@ -19,7 +19,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/api', routes);
-
+app.get('/',(req,res)=>{
+	res.send('App Works');
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
